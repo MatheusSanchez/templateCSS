@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  padding: 0 10px;
+  background-color: cadetblue;
+  justify-content: space-between;
+}
+
+.title, .subtitle {
+  color: white;
+}
