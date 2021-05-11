@@ -5,12 +5,13 @@ import './assets/styles/css/normalize.css';
 import Header from './components/header/Header';
 import Table from './components/table/Table';
 import List from './components/list/List';
+import Footer from './components/footer/Footer';
 
 export function App() {
   return (
     <>
       <Header />
-      <div className="container">
+      <section className="container">
         <Table />
         <List />
         <ul>
@@ -29,7 +30,8 @@ export function App() {
             <button className="list__btn">Slack</button>
           </li>
         </ul>
-      </div>
+      </section>
+      <Footer />
     </>
   );
 }
