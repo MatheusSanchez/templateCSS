@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   display: grid;
   padding: 0 0 0 5px;
   grid-template-columns: 2fr 1fr;
@@ -23,9 +23,9 @@
   font-weight: 600;
 }
 
-.footer__img {
+.footer__svg {
   width: 55px;
   height: 33px;
   align-self: center;
   background: url('../../assets/ifood.svg') no-repeat;
-}
+} */

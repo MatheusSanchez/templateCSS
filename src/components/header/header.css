@@ -1,10 +1,19 @@
-.header {
+/* .header {
   display: flex;
   padding: 0 10px;
   background-color: cadetblue;
   justify-content: space-between;
 }
 
-.title, .subtitle {
-  color: white;
+.header__title:after {
+  content: '';
+  width: 55px;
+  height: 33px;
+  transform: rotate(220deg);
+  background: url('../../assets/callme.svg') no-repeat;
 }
+
+.header__title, .header__subtitle {
+  color: white;
+  display: flex;
+} */
