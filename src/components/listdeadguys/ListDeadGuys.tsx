@@ -12,7 +12,8 @@ export default function List() {
           <div className="infoTeam">
             <img className="list__img" src={jair} />
             <p className="list__title">Falecido Jair da Massa</p>
-            </div>
+          </div>
+          
             <Button/>
           
           </li>
