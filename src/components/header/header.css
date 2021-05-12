@@ -1,8 +1,8 @@
-/* .header {
+.header {
   display: flex;
   padding: 0 10px;
-  background-color: cadetblue;
   justify-content: space-between;
+  background-color: cadetblue;
 }
 
 .header__title:after {
@@ -16,4 +16,4 @@
 .header__title, .header__subtitle {
   color: white;
   display: flex;
-} */
+}
