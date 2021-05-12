@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  padding: 0 0 0 5px;
+  grid-template-columns: 2fr 1fr;
+  background-color: cadetblue;
+}
+
+.footer__title {
+  color: white;
+  font-size: 0.75em;
+  align-self: flex-end;
+}
+
+.footer__box {
+  display: flex;
+  justify-self: end;
+}
+
+.footer__text {
+  color: white;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.footer__svg {
+  width: 55px;
+  height: 33px;
+  align-self: center;
+  background: url('../../assets/ifood.svg') no-repeat;
+}

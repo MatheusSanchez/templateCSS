@@ -1,0 +1,26 @@
+.table {
+  width: 100%;
+}
+
+.table__item {
+  color: black;
+  text-align: center;
+}
+
+.table__item .table__header {
+  padding: 8px;
+}
+
+.table__item .table__content {
+  color: white;
+  padding: 8px;
+  background-color: #555795;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
