@@ -1,21 +1,29 @@
 import './listdeadguys.css';
+import jair from '../../assets/images/jair.png'
+import paulo from '../../assets/images/paulo.png'
+import Button from '../buttons/Buttons'
+
 
 export default function List() {
   return (
     <ul>
+        
           <li className="list__item">
-            <img className="list__img" src="assets/images/" />
+          <div className="infoTeam">
+            <img className="list__img" src={jair} />
             <p className="list__title">Falecido Jair da Massa</p>
-            <button className="list__btn">telefone</button>
-            <button className="list__btn">Whats</button>
-            <button className="list__btn">Slack</button>
+            </div>
+            <Button/>
+          
           </li>
+          
+
           <li className="list__item">
-            <img className="list__img" src="assets/images/" />
+          <div className="infoTeam">
+            <img className="list__img" src={paulo} />
             <p className="list__title">Falecido Paulin da Massa</p>
-            <button className="list__btn">telefone</button>
-            <button className="list__btn">Whats</button>
-            <button className="list__btn">Slack</button>
+           </div>
+            <Button/>
           </li>
     </ul>
   )

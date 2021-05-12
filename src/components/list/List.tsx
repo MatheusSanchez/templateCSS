@@ -1,56 +1,65 @@
 import './list.css';
+import michel from '../../assets/images/michel.png'
+import branca from '../../assets/images/branca.png'
+import neto from '../../assets/images/neto.png'
+import diogo from '../../assets/images/diogo.png'
+import matheus from '../../assets/images/matheus.png'
+
+import marcela from '../../assets/images/marcela.png'
+import claudio from '../../assets/images/claudio.png'
+import Button from '../buttons/Buttons'
 
 export default function List() {
   return (
     <ul className="list">
       <li className="list__item">
-        <img className="list__img" alt="" src="assets/images/michel.png" />
+        <div className="infoTeam">
+        <img className="list__img" alt="" src={michel} />
         <p className="list__title">Michelão Brayan</p>
-        <button className="list__btn">telefone</button>
-        <button className="list__btn">Whats</button>
-        <button className="list__btn">Slack</button>
+        </div>
+        <Button/>
       </li>
       <li className="list__item">
-        <img className="list__img" alt="teste" src="assets/images/marcela.png" />
+      <div className="infoTeam">
+        <img className="list__img" alt="teste" src={marcela} />
         <p className="list__title">Tchella a famosa</p>
-        <button className="list__btn">telefone</button>
-        <button className="list__btn">Whats</button>
-        <button className="list__btn">Slack</button>
+      </div>
+        <Button/>
       </li>
       <li className="list__item">
-        <img className="list__img" alt="" src="assets/images/claudio.png" />
+      <div className="infoTeam">
+        <img className="list__img" alt="" src={claudio} />
         <p className="list__title">Claudio da praça</p>
-        <button className="list__btn">telefone</button>
-        <button className="list__btn">Whats</button>
-        <button className="list__btn">Slack</button>
+       </div> 
+        <Button/>
       </li>
       <li className="list__item">
-        <img className="list__img" alt="" src="assets/images/diogo.png" />
+      <div className="infoTeam">
+        <img className="list__img" alt="" src={diogo} />
         <p className="list__title">Diogo Fumante</p>
-        <button className="list__btn">telefone</button>
-        <button className="list__btn">Whats</button>
-        <button className="list__btn">Slack</button>
+      </div>
+        <Button/>
       </li>
       <li className="list__item">
-        <img className="list__img" alt="" src="assets/images/branca.jpg" />
+      <div className="infoTeam">
+        <img className="list__img" alt="" src={branca} />
         <p className="list__title">Clara Loren CavalcantI</p>  
-        <button>telefone</button>
-        <button>Whats</button>
-        <button>Slack</button>
+        </div>
+        <Button/>
       </li>
       <li className="list__item">
-        <img className="list__img" alt="" src="assets/images/neto.png" />
+      <div className="infoTeam">
+        <img className="list__img" alt="" src={neto} />
         <p className="list__title">Neto de quem ?</p>
-        <button className="list__btn">telefone</button>
-        <button className="list__btn">Whats</button>
-        <button className="list__btn">Slack</button>
+        </div>
+        <Button/>
       </li>
       <li className="list__item">
-        <img className="list__img" alt="" src="assets/images/matheus.jpg" />
-        <p className="list__title">Matheus Sanchão da massa</p>
-        <button className="list__btn">telefone</button>
-        <button className="list__btn">Whats</button>
-        <button className="list__btn">Slack</button>
+      <div className="infoTeam">
+        <img className="list__img" alt="" src={matheus} />
+        <p className="list__title">Sanchão da massa</p>
+        </div>
+        <Button/>
       </li>
     </ul>
   )
